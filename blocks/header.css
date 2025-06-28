@@ -1,0 +1,24 @@
+ .header{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+ }
+
+ .header__logo{
+  max-width: 254px;
+  max-height: 70px;
+  margin: 34px auto 0; 
+ }
+
+@media screen and (max-width: 768px) {
+      .header__logo{
+        margin: 30px auto 0; 
+     }         
+    }
+
+@media screen and (max-width: 320px) {
+      .header__logo{
+         max-width: 188px;
+         margin: 20px auto 0; 
+     }         
+    }
