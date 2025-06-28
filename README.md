@@ -9,5 +9,4 @@ Nele vamos usar todos os recursos aprendidos até agora, como:
 -Todas as habilidades sobre Git e GitHub
 -A função @font-face e vamos usar tudo o que aprendi sobre design responsivo, aprendidas recentemente
 
-*falta imagens
-*falta link para o Git Hub Pages
+Você pode ver este projeto através do link: https://renata-arndt.github.io/web_project_homeland/
