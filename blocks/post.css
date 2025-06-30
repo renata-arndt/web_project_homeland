@@ -40,8 +40,7 @@
 
  .post__content_heading{
     padding: 0;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0 0;
     max-width: 830px;
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-weight: 900;
@@ -62,8 +61,7 @@
 
  .post__content_author{
     max-width: 732px;
-    margin-top: 10px;
-    margin-bottom: 0;
+    margin: 10px 0 0;
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 24px;
@@ -75,8 +73,7 @@
 
  .post__content_text{
     max-width: 722px;
-    margin-top: 32px;
-    margin-bottom: 92px;
+    margin: 32px 0 92px;
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -114,6 +111,7 @@
 
       .post__content_heading{
         max-width: 707px;
+        margin-left: 0;
         font-size: 45px;;
         line-height: 0.9;
       }
@@ -125,11 +123,13 @@
 
       .post__content_author{
         max-width: 720px;
+        margin-left: 0;
       }
       
       .post__content_text{
         max-width: 720px;
         margin-bottom: 88px;
+        margin-left: 0;
       }
     }
 
@@ -144,14 +144,14 @@
       .post__title{
          max-width: 228px;
          font-size: 40px;
-         line-height: 0.9;
+         line-height: 1;
          margin: 50px auto 16px;
       }
 
       .post__subtitle{
          margin: 0 auto 40px;
          font-size: 16px;
-         line-height: 0.8;
+         line-height: 1;
       }
 
       .post__image{
@@ -167,6 +167,7 @@
 
       .post__content_heading{
         max-width: 320px;
+        margin-left: 0;
         font-size: 32px;
         line-height: 0.9;
       }
@@ -179,10 +180,12 @@
 
       .post__content_author{
         max-width: 288px;
+        margin-left: 0;
       }
       
       .post__content_text{
         max-width: 288px;
         margin-bottom: 64px;
+        margin-left: 0;
       }
     }
