@@ -1,0 +1,50 @@
+.places{
+    max-width: 984px;
+    margin: 0 auto 90px;
+    color: #fff;
+    margin-left: 148px;
+    }
+
+.places__header{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.places__header_title{
+    max-width: 460px;
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    margin-bottom: 48px;
+    padding: 0;
+}
+
+.places__header_artists{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-width: 456px;
+    margin-bottom: 48px;
+    padding: 0;
+}
+
+.places__header_artists-heading{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 12%;
+    text-transform: uppercase;
+}
+
+.places__header_artists-author{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 22px;
+
+
+}
