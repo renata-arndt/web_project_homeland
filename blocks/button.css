@@ -12,3 +12,21 @@
     text-decoration: none;
     box-shadow: 10px, 10px, 25px, rgba(0, 0, 0, 0.5);
 }
+
+    @media screen and (max-width: 544px){
+        .button{
+            grid-row-start: 5;
+            max-width: 288px;
+            height: 48px;
+            margin-top: 45px;
+        }
+    }
+
+    @media screen and (max-width: 320px){
+        .button{
+            grid-row-start: 5;
+            max-width: 288px;
+            height: 48px;
+            margin-top: 45px;
+        }
+    }
