@@ -1,16 +1,20 @@
 .places{
-    margin: 92 auto 90px;
+    max-width: 984px;
+    margin: 0 auto 90px;
     color: #fff;
-    margin-left: 148px;
-    display: flex;
-    flex-direction: column;
-    row-gap: 80px;
     }
 
  @media screen and (max-width: 1024px){
         .places{
             max-width: 890px;
-            margin: 0 auto 72px;
+            margin: 90 auto 88px;
+        }
+    }
+
+@media screen and (max-width: 768px){
+        .places{
+            max-width: 720px;
+            margin: 90 auto 88px;
         }
     }
 
