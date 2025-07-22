@@ -3,19 +3,16 @@
     width: 100%;
     height: 48px;
     border: #0278FE 1px solid;
-    background: linear-gradient( 180deg, #0278fe 50% #003a7b 100%);
     font-family: "Inter", arial, sans-serif;
     font-weight: 600;
     font-size: 18px;
     line-height: 100%;
     color: #fff;
     text-decoration: none;
-    box-shadow: 10px, 10px, 25px, rgba(0, 0, 0, 0.5);
 }
 
     @media screen and (max-width: 544px){
         .button{
-            grid-row-start: 5;
             max-width: 288px;
             height: 48px;
             margin-top: 45px;
@@ -24,7 +21,6 @@
 
     @media screen and (max-width: 320px){
         .button{
-            grid-row-start: 5;
             max-width: 288px;
             height: 48px;
             margin-top: 45px;

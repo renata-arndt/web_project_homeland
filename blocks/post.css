@@ -91,7 +91,7 @@
       .post__title{
         font-size: 75px;
         line-height: 0.95;
-        margin: 90px auto 25px;
+        margin: 90px auto 0;
       }
 
       .post__subtitle{
@@ -128,12 +128,15 @@
       
       .post__content_text{
         max-width: 720px;
-        margin-bottom: 88px;
         margin-left: 0;
       }
     }
 
     @media screen and (max-width: 544px){
+      .post__content{
+        margin-left: 24px;
+        margin-right: 24px;
+      }
       .post__title{
         max-width: 480px;
         font-size: 60px;
@@ -145,7 +148,6 @@
          max-width: 228px;
          font-size: 40px;
          line-height: 1;
-         margin: 50px auto 16px;
       }
 
       .post__subtitle{
@@ -162,7 +164,7 @@
 
       .post__content{
         max-width: 288px;
-        margin-left: 16px;
+       margin: 64px auto 0;
       }
 
       .post__content_heading{
@@ -175,17 +177,16 @@
       .post__content_subheading{
         max-width: 288px;
         margin: 40px auto 0;
-        line-height: 0.8;
+        line-height: 1.1;
       }
 
       .post__content_author{
         max-width: 288px;
-        margin-left: 0;
+        margin: 10px auto 0;
       }
       
       .post__content_text{
         max-width: 288px;
-        margin-bottom: 64px;
-        margin-left: 0;
+        margin: 32px auto 0;
       }
     }
